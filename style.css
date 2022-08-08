@@ -1,0 +1,201 @@
+/* VARS */
+:root {
+    --white-color: hsl(0 0% 98%);
+    --grey-color: hsla(0, 0%, 98%, 1);
+    --text-color: #767676;
+    --title-color: #3b3b3b;
+    --footer-color: #1e1e1e;
+}
+
+/* CAROUSEL */
+#myCarousel {
+    margin-top: 3.9rem;
+}
+
+/* NAV */
+header nav {
+    background-color: var(--footer-color);
+}
+
+#navlogo-def {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* CONTENT */
+#content {
+    background-color: var(--grey-color);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.card-def {
+    padding: 3rem 2rem 2rem 2rem;
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+    background-color: var(--white-color);
+}
+
+/* FOOTER */
+#footerlogo-def {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#footer-def {
+    background-color: var(--footer-color);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#footer-icon {
+    font-weight: bold;
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+#footer-icon:hover {
+    transform: translateY(-10px);
+}
+
+/* TEXT */
+.title-def {
+    color: var(--title-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.text-def {
+    color: var(--text-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+#text-area {
+    padding-bottom: 2rem;
+}
+
+/* DIVIDER */
+#divider-car {
+    margin-top: 10rem;
+    height: 1px;
+    background: linear-gradient(
+        270deg,
+        var(--white-color),
+        var(--text-color));
+}
+
+#divider-1 {
+    height: 1px;
+    background: linear-gradient(
+        270deg,
+        var(--white-color),
+        var(--text-color));
+}
+
+#divider-2 {
+    height: 1px;
+    background: linear-gradient(
+        270deg,
+        var(--text-color),
+        var(--white-color));
+}
+
+/* DEF */
+.svg-def {
+    margin-bottom: 0.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#whatsapp-icon {
+    margin-top: 1rem;
+}
+
+.align-logo {
+    margin-right: 0.2rem;
+    transform: translateY(7px);
+}
+
+/* CONTACT-US */
+#contact-us {
+    padding-top: 8rem;
+    padding-bottom: 12rem;   
+}
+
+#contact-title-def {
+    color: var(--title-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;   
+    font-size: xx-large;
+}
+
+#contact-button {
+    background-color: var(--footer-color);
+    border: none;
+    outline: none;
+}
+
+#contact-us {
+    background-color: var(--grey-color);
+}
+
+/* ABOUT */
+#about-us {
+    margin-bottom: 8rem;
+    padding-top: 8rem;
+}
+
+/* ANIMATIONS */
+.shining {
+    animation: shining 3s linear infinite;
+}
+
+/* Aqui definimos a nossa animação com o nome "rotate" */
+@keyframes shining {
+    0% {
+        background-color: var(--footer-color);
+    }
+
+	50% {
+        background-color: var(--text-color);
+    }
+
+	100% {
+        background-color: var(--footer-color);
+	}
+}
+
+.shining-color {
+    animation: shining-color 3s linear infinite;
+}
+
+/* Aqui definimos a nossa animação com o nome "rotate" */
+@keyframes shining-color {
+    0% {
+        color: var(--footer-color);
+    }
+
+	50% {
+        color: var(--text-color);
+    }
+
+	100% {
+        color: var(--footer-color);
+	}
+}
+
+/* SCROLLREVEAL */
+#myCarousel, #content, #about-us, #contact-us {
+    visibility: hidden;
+}
