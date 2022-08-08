@@ -108,7 +108,7 @@ header nav {
         var(--white-color));
 }
 
-/* DEF */
+/* ICONS */
 .svg-def {
     margin-bottom: 0.5rem;
 }
@@ -161,7 +161,6 @@ img {
     animation: shining 3s linear infinite;
 }
 
-/* Aqui definimos a nossa animação com o nome "rotate" */
 @keyframes shining {
     0% {
         background-color: var(--footer-color);
@@ -180,7 +179,6 @@ img {
     animation: shining-color 3s linear infinite;
 }
 
-/* Aqui definimos a nossa animação com o nome "rotate" */
 @keyframes shining-color {
     0% {
         color: var(--footer-color);
